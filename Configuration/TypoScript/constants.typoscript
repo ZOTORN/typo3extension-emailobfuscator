@@ -1,0 +1,18 @@
+# customcategory=emailobfuscator=LLL:EXT:emailobfuscator/Resources/Private/Language/locallang.xlf:constants.category
+
+plugin.tx_emailobfuscator.settings {
+  # cat=emailobfuscator; type=boolean; label=LLL:EXT:emailobfuscator/Resources/Private/Language/locallang.xlf:constant.enable
+  enabled = 0
+
+  # cat=emailobfuscator; type=boolean; label=LLL:EXT:emailobfuscator/Resources/Private/Language/locallang.xlf:constant.obfuscateEmailLinks
+  obfuscateEmailLinks = 1
+
+  # cat=emailobfuscator; type=boolean; label=LLL:EXT:emailobfuscator/Resources/Private/Language/locallang.xlf:constant.obfuscatePlainEmails
+  obfuscatePlainEmails = 1
+
+  # cat=emailobfuscator; type=string; label=LLL:EXT:emailobfuscator/Resources/Private/Language/locallang.xlf:constant.patternEmailLinks
+  patternEmailLinks = /<a[^>]*?href=[\'"]mailto:[.\s\S]*?<\s*\/\s*a\s*>/i
+
+  # cat=emailobfuscator; type=string; label=LLL:EXT:emailobfuscator/Resources/Private/Language/locallang.xlf:constant.patternPlainEmails
+  patternPlainEmails = /[a-zA-Z.0-9-+]+@[a-zA-Z.0-9-]+/i
+}

@@ -1,0 +1,6 @@
+plugin.tx_emailobfuscator.settings {
+    enabled = {$plugin.tx_emailobfuscator.settings.enabled}
+    obfuscateEmailLinks = {$plugin.tx_emailobfuscator.settings.obfuscateEmailLinks}
+    obfuscatePlainEmails = {$plugin.tx_emailobfuscator.settings.obfuscatePlainEmails}
+    patternEmailLinks = {$plugin.tx_emailobfuscator.settings.patternEmailLinks}
+}

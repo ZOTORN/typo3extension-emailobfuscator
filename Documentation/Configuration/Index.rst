@@ -9,13 +9,13 @@ Configuration
 
 All configuration is done using TypoScript. This allows for individual adjustments on a per page basis.
 
+Include the static include "Emailobfuscator". The following can be added as constants:
+
 Properties
 ==========
 
-
-
 enabled
-------
+-------
 
 .. container:: table-row
 
@@ -39,7 +39,7 @@ enabled
 
 
 obfuscateEmailLinks
-------
+-------------------
 
 .. container:: table-row
 
@@ -64,7 +64,7 @@ obfuscateEmailLinks
 
 
 obfuscatePlainEmails
-------
+--------------------
 
 .. container:: table-row
 
@@ -88,7 +88,7 @@ obfuscatePlainEmails
 
 
 patternEmailLinks
-------
+-----------------
 
 .. container:: table-row
 
@@ -112,7 +112,7 @@ patternEmailLinks
 
 
 patternPlainEmails
-------
+------------------
 
 .. container:: table-row
 

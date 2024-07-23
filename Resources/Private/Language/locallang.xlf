@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2024-07-23T14:17:44Z"
+	product-name="emailobfuscator">
+		<header/>
+		<body>
+			<trans-unit id="constants.category">
+				<source>Emailobfuscator</source>
+			</trans-unit>
+			<trans-unit id="constant.enable">
+				<source>Enable emailobfuscator</source>
+			</trans-unit>
+			<trans-unit id="constant.obfuscateEmailLinks">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="constant.obfuscatePlainEmails">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="constant.patternEmailLinks">
+				<source></source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
